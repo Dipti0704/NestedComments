@@ -45,7 +45,6 @@
   cursor: pointer;
 }
 
-
 .delete-button {
   position: absolute;
   top: 50%;
@@ -107,17 +106,3 @@
   bottom: 10px;
   right: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
