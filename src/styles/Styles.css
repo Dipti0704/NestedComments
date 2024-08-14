@@ -1,0 +1,123 @@
+/* src/styles/styles.css */
+
+.comment-box {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.comment-thread {
+  margin-bottom: 20px;
+}
+
+.comment {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.comment-date {
+  font-size: 0.8em;
+  color: #666;
+}
+
+.comment-content {
+  margin-bottom: 10px;
+}
+
+.comment-actions {
+  text-align: right;
+}
+
+.comment-actions button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+
+.delete-button {
+  position: absolute;
+  top: 50%;
+  left: -12px; /* Position it slightly outside the box */
+  transform: translateY(-50%);
+  background-color: #ffcccc;
+  border: 1px solid #ff9999;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.reply-box {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #e6f3ff;
+  border: 1px solid #b3d9ff;
+}
+
+.edit-form {
+  margin-top: 10px;
+}
+
+.edit-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.comment-form input,
+.comment-form textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.comment-form button {
+  align-self: flex-end;
+  padding: 5px 5px;
+  background-color: #e6f3ff;
+  border: 1px solid #b3d9ff;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
